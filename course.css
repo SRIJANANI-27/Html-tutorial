@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+nav{
+    color: white;
+    padding: 15px;
+    background-color:gray;
+    position: sticky;
+    width: 98%;
+    top:0px;
+    z-index: 1;
+    
+  }
+  nav h1{
+    letter-spacing:.2em;
+  }
+nav li,ul,h1{
+    display: inline;
+    
+  }
+nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 50px;
+    color: white;
+    position: relative;
+    top:-6px;
+    
+  }
+  ul{
+    margin-left: 10%; 
+    
+  }
+nav li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    padding: 10px;
+    -webkit-cursor:pointer;
+    
+  }
+  
+.searchbar{
+    width: 20%;
+    height: 5vh;
+    background:rgba(255, 255, 255, 0.369) ;
+    border-radius:70px;
+    padding: 3px 5px;
+    backdrop-filter: blur(3px) saturate(100%);
+    position: relative;
+    top:-3px;
+    right: 250px;
+    float: right;
+}
+  
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+   
+  .login{
+    position: relative;
+    left: 350px;
+    top:-3px;
+    padding: 10px;
+    width:100px;
+    border-radius: 10px;
+  }
+  
+  ::placeholder{
+    color: rgba(145, 81, 145, 0.753);
+  }
+    
+  .searchbar button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #58629b;
+    margin-left:-7px;
+    border: 0;
+    padding: 6px;
+    position: fixed;
+  }
+
+/* sidebar */
+.sidebar {
+    margin-left: 0px;
+    width: 200px;
+    /* background-color:rgba(128, 128, 128, 0.834); */
+    /* background-color: #b8f2e6dd; */
+    background-color: #F4EEEE;
+    
+    position: fixed;
+    top:69px;
+    z-index: 0;
+    height: 100vh;
+}
+.sidebar li{
+    list-style: none;
+}
+.sidebar ul a{
+    color: black;
+    display: block;
+    width: 80%;
+    height: 100%;
+    line-height: 45px;
+    font-size: 15px;
+    color: white;
+    /* background-color: #ffa69e; */
+    background-color: #ffb7b7cb;
+    
+    text-align: center;
+    transition: .4s;
+    text-decoration: none;
+    margin-left: 15px;
+    border-top:1px solid rgba(0,0,0,0.1);
+   
+}
+.sidebar h3{
+    padding-left: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sidebar ul a:hover{
+    background-color: rgba(81, 87, 87, 0.39);
+    cursor: pointer;
+    padding-left:10px ;
+    width: 75%;
+}
+
+/* content */
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+.content .html{
+    
+    
+    text-align: justify;
+    line-height: 35px;
+    font-size: 15px;
+    width: 70%;
+    position: relative;
+  bottom: 90px;
+   
+    
+}
+.html h3{
+  margin-top:0px;
+  display: block;
+  text-decoration:underline;
+  text-align: center;
+
+}
+.tags h3 ,.attributes h3,.list h3,.link h3{
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+  text-decoration:underline;
+}
+.html h4, .attributes h4{
+  padding-top: 20px;
+}
+.html p{
+  margin-top: 15px;
+}
+.html img{
+  float: right;
+  position: relative;
+  left:280px;
+  bottom: 140px;
+}
+.html li{
+    list-style: circle;
+    position: relative;
+    top:-20px;
+    left:30px
+   
+}
+.htmleg{
+  width: 50%;
+  height: 50vh;
+}
+.content img,iframe{
+  margin-top: 20px;
+}
+
+/* table tags*/
+
+
+ table{
+  margin-left: 90px;
+}
+table{
+  position: relative;
+  font-size: 15px;
+  width: 80%;
+  border-collapse: collapse;
+  border:1px solid black;
+  margin-top: 70px;
+  text-align: left;
+  
+}
+table,tr,td,th{
+  padding: 10px;
+} 
+
+/* attributes */
+
+.attributes h1{
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.attributes ul li{
+  
+  list-style: circle;
+  text-align: justify;
+  line-height: 35px;
+  width:100%;
+  font-size: 15px;
+  position: relative;
+  margin-left: 25px;
+  
+}
+
+.attributes img{
+  height: 10vh;
+  position: relative;
+  left:40px;
+  width: 80%;
+  
+}
+
+.atrieg img{
+  width: 50%;
+  height: 50vh;
+  margin-top: 50px;
+}
+
+/* lists */
+ .list{
+  position: relative;
+  top:20px;
+}
+.list h1{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+.list p ,.link p{
+  line-height: 35px;
+  text-align: justify;
+  width: 90%;
+  margin-top: 0px;
+}
+.list li{
+  list-style:square;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.link .para img{
+  margin-top: 40px;
+  margin-left: 160px;
+  width: 500px;
+}

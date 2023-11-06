@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+    <nav>
+        <h1>TUTOR</h1>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="exer.html">Exercise</a></li>
+            <form class="searchbar">
+                <input type="text" placeholder="search courses,tutorial">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #fcfcfd;"></i></button>
+               
+            </form>
+            <button class="login" type="submit">Login</button>
+        </ul>
+    </nav>
+    <div class="sidebar">
+        <ul>
+            <label style="margin-left:-19px;">01</label><h3>Beginner</h3>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#basic">Introduction to html</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#basic2">Basics of html</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#basic3">Formatting in html</a></li>
+            <label>02</label><h3><span style="position: relative; left: 15px;">Intermediate</span></h3>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#inter">Tables in html</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#inter2">Links in html</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#inter3">Block-level elements</a></li>
+            <label>03</label><h3>Advance</h3>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#ad">Iframes in html</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#ad2">Favicon</a></li>
+            <li><img src="assests/play.png" width="17" height="17"><a href="#ad3">Media in html</a></li>
+        </ul>
+    </div>
+    <div class="beginner" style="margin-left: 290px;">
+        <label>01</label> <input type="text" id="beginner" placeholder="BEGINNER TUTORIAL">
+        <div class="main">
+            <h2 style="text-align: left;" id="basic">Basics of HTML:</h2>
+            <p>HTML (Hypertext Markup Language) is a standard markup language used for creating websites and web applications. HTML is based on the concept of tags, 
+                which are used to describe the structure and content of a web page.</p><br>
+            <h4>&lt;DOCTYPE&gt; :</h4>
+            <p>This declaration is used for HTML5, which is the current version of HTML as of knowledge. It tells the web browser that the web page is written in HTML5 syntax and that it should display the page accordingly. HTML5 is designed to be a simpler and more flexible markup language, and 
+                so the DOCTYPE declaration is now much simpler as well.</p>
+            <h4>&lt;HTML&gt; :</h4>
+            <p> In HTML &lt;html&gt; tag is used to determine the bottom of the HTML and XHTML documents. It is the second tag that comes after &lt;!DOCTYPE&gt; in every HTML program. It starts with the tag &lt;html&gt; and ends with the tag &lt;/html&gt; and every other tag will be written under this &lt;html&gt; tag.</p>
+            <h4>&lt;HEAD&gt; :</h4>
+            <p>After the <html> tag the <head> tag is used to contain the header information of the web page or title by using the Title tag <title> Your page Title </title>. For closing this tag we use </head>. In the previous version of HTML 4.1, the &lt;head&gt; tag is mandatory but in HTML 5 it is optional.</p>
+            <h4>&lt;BODY&gt; :</h4>
+            <p>The body tag is the backbone of the webpage, it contains the main content of the HTML basic structure for which the user is searching. All the other tags such as images, videos, and paragraphs, are concluded inside this tag. For closing this tag we use &lt;body&gt; We will learn about all the other tags further.</p>
+            <img class="struc" src="assests/st.png" alt="">
+            <img class="struc1" src="assests/html-structure.webp" alt=""><br><br>
+            <h3 id="basic2">HEADINGS IN HTML</h3>
+            <p>Heading tag which is most important for any content, without a heading user will not be able to understand what he is reading or watching. In HTML there are a total of six Heading tags named &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, &lt;h6&gt;&lt;/h6&gt;. A heading tag is used to make headings or subheadings for the content.</p>
+            <img class="heading" src="assests/heading.jpg" alt="">
+            <img class="heading1" src="assests/heading 1 to 6.jpg" alt=""><br><br>
+            <h3>PARAGRAPHS IN HTML</h3>
+            <p>paragraph starts from the tag &lt;p&gt; and ends with &lt;/p&gt;. This tag is used when it requires multiple lines to describe something. You can add many more tags under a &lt;p&gt; tag such as Line break tag, Horizontal tag, Superscript, and Subscript tag, which you will learn further. There are some paragraph tag attributes in HTML supported by all the Global attributes in HTML and Event attributes in HTML. </p>
+            <img class="para" src="assests/parapanda.png" alt="">
+            <img class="para1" src="assests/para2.png" alt=""><br><br>
+            <h3 id="basic3">FORMATTING TAGS</h3>
+            <P>HTML Formatting means that the text elements present in an HTML program can be modified such as bold, italic, underline, etc. Text formatting tags in HTML. It helps in making the content more attractive. The use of HTML formatting tags is to tell the browser how the content should be displayed.</P>
+            <img src="assests/formating1.jpg" alt="">
+            <img class="para1" src="assests/formating.jpg" alt="">
+            <h2>LET`S LEARN BY PLAYING</h2>
+            <a href="https://mimo.org/web/track/213/tutorial/2469/chapter/14150/learn?lesson=2" target="_blank"><img class="game" src="assests/game.png" alt=""></a>
+        </div>
+    </div>
+    <div class="beginner" style="margin-left: 290px;">
+        <label>02</label> <input type="text" id="beginner" placeholder="INTERMEDIATE TUTORIAL">
+        <div class="main">
+            <h3 id="inter">TABLES IN HTML</h3>
+            <P>To create a table head in HTML, we use the &LT;th&gt;…&lt;/th&gt; tag. It is surrounded by the table row &lt;tr&gt;…&lt;/tr&gt;. The &lt;tr&gt; tag is surrounded by the &lt;table&gt; tag. Table columns are used to represent different features of the data. It helps to describe the data under a column.
+            Headers are the values that help to describe the data under the table. Headers should have been made bolder than the other content of the table. The &LT;th&GT; in HTML defines the header so that there is a difference between the column with heading text and the data content.</P>
+            <img src="assests/table-inter.png" alt="">
+            <img class="para1" src="assests/table-inter2.png" alt=""><br><br>
+            <h3 id="inter2">LISTS IN HTML</h3>
+            <p>Lists in HTML are used to describe lists of information. All lists may contain one or more list elements. We will know about Lists in HTML Online Training and also understand their types and various ways to implement them. A list can be defined as a record of short pieces of related information or used to display the data or any information on web pages in the form of an ordered list and an unordered list.</p>
+            <img src="assests/list-inter.jpg" alt="">
+            <img class="para1" src="assests/list-inter2.jpg" alt=""><BR><BR>
+            <h3 id="inter3">BLOCK LEVEL ELEMENTS</h3>
+            <p> In HTML block elements will always start with a new line, and margins are added automatically before and after the element by the browsers.   
+
+                The block element will always occupy the full width available (It starts from the left and right as far as it can).
+                
+                &lt;p&gt; and &lt;div&gt; are two commonly used tags in block elements.
+              <li>  The &lt;p&gt; element defines a paragraph in an HTML document.</li>
+              <li>  The &lt;div&gt; element defines a division or a section in an HTML document.</li></p>
+        
+            <img src="assests/block-inter.jpg" alt="">
+            <img class="para1" src="assests/block-inter1.jpg" alt=""><br>
+            <h3>More tags in block-level elements</h3><br>
+
+            <li>&lt;article&gt; - It is Self-contained and independent content.</li>
+            <li>    &lt;article&gt; - Inside &lt;article&gt; the content is often placed at the sidebar in a document.
+            <li>    &lt;div&gt; - It is the container for HTML elements.
+            <li>   &lt;fieldset&gt; - It is used to group the same or related items.
+            <li>   &lt;figcaption&gt; - It defines the caption for &lt;article&gt; element.
+            <li>    &lt;figure&gt; - This tag contains content like illustrations, figures, images, etc.
+            <li>    &lt;footer&gt; - In &lt;article&gt; it defines the footer of the section.
+            <li>    &lt;form&gt; - This tag is used to get information from the user input.
+            <li>   &lt;h1&gt;-&lt;h6&gt; - This tag defines HTML headings, where h1 is largest and h6 is smallest.
+            <li>   &lt;header&gt; -The &lt;header&gt; Container of Heading of the page
+            <li>    &lt;hr&gt; - This tag is used for separate content using horizontal lines.
+            <li>    &lt;li&gt;- This tag is used to add list items, ordered(&lt;ol&gt;) or unordered lists (&lt;ul&gt;).
+            <li>    &lt;main&gt; - We used the main tag to add the main content.
+            <li>    &lt;nav&gt; - Add navigation links.
+            <li>   &lt;section&gt;- Add a section.
+            <li>   &lt;table&gt; - Add a table.<br>
+            <h2>LET`S LEARN BY PLAYING</h2>
+            <img class="game1" src="assests/intergame.jpg" alt="">
+            <img class="gam"  src="assests/table-game.png" alt="">
+
+        </div>
+    
+    </div>
+    <div class="beginner" style="margin-left: 290px;">
+        <label>03</label> <input type="text" id="beginner" placeholder="ADVANCED TUTORIAL">
+        <div class="main">
+        <h3 id="ad">IFRAMES IN HTML</h3>
+        <P>The &lt;iframe&gt; tag is not related to &lt;frameset&gt; tag (frameset tag is not supported in HTML5), instead, This tag can appear anywhere in your document. The &lt;iframe&gt; tag defines a rectangular section within the document in which the browser can show a separate document, including scrollbars and borders. </P>
+        <img class="adav" src="assests/iframe-img.jpg" alt="">
+        <img class="adav" src="assests/iframe.jpg" alt="">
+        <h4>src</h4>
+        <p>The src attribute is used to give the location of the file that should be loaded in the frame. For example, src = "/html/top_frame.htm" will load an HTML file available in html directory.</p>
+        <h4>name</h4>
+        <p>The name attribute allows you to give a name to a frame. This tag is used to indicate that the document should be loaded into which frame. This attribute is important when you want to create links in one frame that link load pages into another frame, In which case the second frame needs a name for its identification as the target of the link.</p>
+        <h4>margin width</h4>
+        <p>The marginwidth attribute allows you to specify the width of the space between the left and right sides of the frame's borders and the frame's content also. The value is given in pixels.</p><BR><BR>
+        <h3 id="ad2">FAVICON</h3>
+        <P>HTML favicon is a small file that contains one or more icons representing the website or a blog. Favicon is also known as a tab icon, website icon, URL icon, or bookmark icon.
+            The HTML Favicon icon is displayed on the address bar of the web page, at the browser's tab, in browser history, bookmark bar, etc. The image format of a favicon is .ico file format. Various file formats are available, but the .ico format is supported by every browser.</P>
+        <img class="fav" src="assests/favicon.png" alt="" >
+        <img  class="fav" src="assests/favicon-1" alt=""><br><br>
+        <h3 id="ad3">HTML MEDIA</h3>
+        <p>In HTML the "media" refers to various means of spreading information, such as text, images, graphics, audio, video, and animation, etc. All these mediums of communication are collectively named "multimedia." A combination of audio and video files can also be used in websites to attract users and provide user requirements with information and entertainment.</p>
+        <h4>Audio tag</h4>
+        <p>HTML tag for Audio is used to show the audio file on the web page. Audio files are the way for devices like computers, MP3 players, and mobile phones to store audio data.  In order to store audio data, it needs to be converted into a digital format. This process of conversion is called "encoding" of the raw audio data. </p>
+        <img class="para" src="assests/audiopanda.jpg" alt="">
+        <img class="para1" src="assests/audio.png" alt=""><br><br>
+        <h4>Vedio tag</h4>
+        <p>The "VIDEO" tag in HTML show video files on a web page. There are some video file formats which are supported by HTML:</p>
+            <li>.mp4: This format has been developed by the "Moving Pictures Expert Group.</li>
+            <li>.webm: This format has been developed by web giants Mozilla, Opera, Adobe, and Google.
+            </li>
+            <li>.ogg: This format has been developed by Xiph.Org Foundation</li>
+            <img class="para" src="assests/vedio-adva.jpg" alt="">
+            <img class="para1" src="assests/vedio.png" alt="">
+            <h2>LET`S LEARN BY PLAYING</h2>
+            <img class="puz" src="assests/iframe-puzzle.webp" alt="">
+            
+    
+    </div>
+    </div>
+        <!-- <h4>Lets learn with games</h4>
+        <p>FLEXBOX FROGGY
+            Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the justify-content property, which aligns items horizontally and accepts the following values:
+            <br>
+           <li> flex-start: Items align to the left side of the container.</li>
+           <li> flex-end: Items align to the right side of the container.</li>
+           <li> center: Items align at the center of the container.</li>
+            <li>space-between: Items display with equal spacing between them.</li>
+           <li> space-around: Items display with equal spacing around them.</li>
+            For example, justify-content: flex-end; will move the frog to the right.  -->
+    </div>
+</body>
+</html>

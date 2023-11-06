@@ -1,0 +1,97 @@
+/* .home{
+    width: 100%;
+    height: 99vh;
+} */
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(assests/Home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: 100% 100vh;
+    
+}
+nav{
+  color: white;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+nav h1{
+  letter-spacing:.1em;
+}
+li,ul,h1{
+  display: inline;
+  
+}
+li a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 50px;
+  color: white;
+  position: relative;
+  top:-6px;
+  
+}
+ul{
+  margin-left: 10%;
+  
+}
+li a:hover {
+  background-color: rgba(0,0,0,0.2);
+  color: black;
+  padding: 10px;
+  
+}
+
+.searchbar{
+  width: 20%;
+  height: 7vh;
+  background:rgba(255, 255, 255, 0.369) ;
+  border-radius:70px;
+  padding: 3px 5px;
+  backdrop-filter: blur(3px) saturate(100%);
+  position: relative;
+  top:3px;
+  right: 220px;
+  float: right;
+}
+
+.searchbar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+ 
+.login{
+  position: relative;
+  left: 320px;
+  top:-7px;
+  padding: 5px;
+  width:100px;
+  border-radius: 10px;
+}
+
+::placeholder{
+  color: rgba(161, 94, 161, 0.515);
+}
+  
+.searchbar button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #58629b;
+  position: relative;
+  left:200px;
+  bottom: 27px;
+  border: 0;
+  padding: 6px;
+}
